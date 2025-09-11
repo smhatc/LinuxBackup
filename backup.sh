@@ -6,16 +6,16 @@ error_icon="(!)"
 success_icon="(√)"
 line_separator="--------------------------------------------------"
 
-# Check configuration file exists
-config_file="./configuration.txt"
+# Check if mount-points.txt file exists
+mount_points_file="./mount-points.txt"
 
-if [[ ! -f "$config_file" ]]; then
-    echo "${error_icon} Configuration file not found at \"${config_file}\"."
+if [[ ! -f "$mount_points_file" ]]; then
+    echo "${error_icon} mount-points.txt file not found at \"${mount_points_file}\"."
     exit
 fi
 
 # Read all potential mount points from config (comments starting with # in config file are ignored)
-mapfile -t possible_mountpoints < <(grep -v '^\s*#' "$config_file" | grep -v '^\s*$')
+mapfile -t possible_mountpoints < <(grep -v '^\s*#' "$mount_points_file" | grep -v '^\s*$')
 
 # Check which mount points are mounted and set drive_path. If multiple are mounted the user is asked to choose
 mounted=()
