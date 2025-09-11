@@ -78,7 +78,7 @@ fi
 
 # Perform backup
 echo "${process_icon} Starting backup..."
-rsync -avhPb "${exclude_opt}" \
+rsync -avhPb $exclude_opt \
     --backup-dir "${file_backup_arc}/${current_date}" \
     --delete \
     "${file_backup_src}" \
