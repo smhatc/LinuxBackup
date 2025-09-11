@@ -32,7 +32,7 @@ elif [[ ${#mounted[@]} -eq 1 ]]; then
     drive_path="${mounted[0]}"
     echo "${success_icon} Using mounted drive at \"${drive_path}\" as the backup destination."
 else
-    echo "${process_icon} Multiple mounted drives found. Please select one:"
+    echo "${process_icon} Multiple mounted drives found. Please choose one to use for the backup destination:"
     select choice in "${mounted[@]}"; do
         if [[ -n "$choice" ]]; then
             drive_path="$choice"
