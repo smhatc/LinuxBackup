@@ -46,7 +46,9 @@ Feel free to use, take inspiration from, or fork/clone this script and adjust it
 
 3. After connecting your external drive, find its current mount point through the following command (different distributions mount drives in different locations):
 
-    `lsblk -o NAME,TYPE,SIZE,MOUNTPOINT`
+    ```
+    lsblk -o NAME,TYPE,SIZE,MOUNTPOINT
+    ```
 
     Pay attention to the type and size columns to help you identify the external drive.
 
