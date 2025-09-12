@@ -10,7 +10,7 @@ line_separator="--------------------------------------------------"
 mount_points_file="./mount-points.txt"
 
 if [[ ! -f "$mount_points_file" ]]; then
-    echo "${error_icon} "mount-points.txt" file not found at \"${mount_points_file}\"."
+    echo "${error_icon} \"mount-points.txt\" file not found at \"${mount_points_file}\"."
     exit
 fi
 
@@ -69,7 +69,7 @@ fi
 exclude_file="./exclude.txt"
 
 if [[ -f "$exclude_file" ]]; then
-    echo "${process_icon} "exclude.txt" file detected. Applying exclude list..."
+    echo "${process_icon} \"exclude.txt\" file detected. Applying exclude list..."
     exclude_opt="--exclude-from=${exclude_file}"
     echo "${success_icon} Applied exclude list successfully." && echo "$line_separator"
 else
