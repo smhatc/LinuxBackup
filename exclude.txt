@@ -18,6 +18,7 @@ Videos/
 .local/share/flatpak/exports/
 .local/share/flatpak/repo/
 .local/share/flatpak/runtime/
+.local/share/gvfs-metadata/
 .local/share/keyrings/
 .local/share/Trash/
 .local/share/recently-used.xbel
