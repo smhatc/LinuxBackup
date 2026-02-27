@@ -30,3 +30,4 @@ Videos/
 cache/
 Cache/
 node_modules/
+*.log
