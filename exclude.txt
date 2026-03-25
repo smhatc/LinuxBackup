@@ -23,8 +23,10 @@ Videos/
 .local/share/Trash/
 .local/share/recently-used.xbel
 .config/BraveSoftware/
+.var/app/com.brave.Browser/
 .config/Code/
 .config/mozilla/
+.var/app/org.mozilla.firefox/
 .config/Proton/
 .cache/
 cache/
