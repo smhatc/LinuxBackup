@@ -11,6 +11,7 @@ Videos/
 .vscode/
 .yubico-authenticator/
 .bash_history
+.local/share/containers/
 .local/share/flatpak/app/
 .local/share/flatpak/appstream/
 .local/share/flatpak/.changed
