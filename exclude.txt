@@ -29,6 +29,7 @@ Videos/
 .config/mozilla/
 .var/app/org.mozilla.firefox/
 .config/Proton/
+.var/app/com.protonvpn.www/
 .cache/
 cache/
 Cache/
