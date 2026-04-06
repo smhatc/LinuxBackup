@@ -8,6 +8,7 @@ Templates/
 Videos/
 .vbox-vms/
 .vman-vms/
+.virt-manager/
 .vscode/
 .yubico-authenticator/
 .bash_history
