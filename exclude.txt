@@ -3,6 +3,7 @@ Documents/
 Downloads/
 Music/
 Pictures/
+Projects/
 Public/
 Templates/
 Videos/
@@ -10,6 +11,7 @@ Videos/
 .vman-vms/
 .virt-manager/
 .vscode/
+.vscode-shared/
 .yubico-authenticator/
 .bash_history
 .local/share/containers/
