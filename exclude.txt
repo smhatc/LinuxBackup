@@ -8,6 +8,8 @@ user/Public/
 user/Videos/
 user/.vscode/
 user/.vscode-shared/
+user/.dotnet
+user/.pki
 .vbox-vms/
 .vman-vms/
 .virt-manager/
