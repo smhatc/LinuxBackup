@@ -4,7 +4,8 @@ A personal repository containing a backup script to back up all my files from an
 
 Feel free to use, take inspiration from, or fork/clone this script and adjust it to your own backup strategy.
 
-<video src="./assets/backup-script-preview.mp4" controls></video>
+[backup-script-preview.mp4](https://github.com/user-attachments/assets/ebd58284-84da-4c02-bb7d-9498b85f51ba)
+
 Running LinuxBackup Script
 
 ## Instructions
