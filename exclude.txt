@@ -41,6 +41,7 @@ user/.var/app/com.protonvpn.www/
 user/.var/app/com.visualstudio.code/
 .cache/
 cache/
+.Cache/
 Cache/
 node_modules/
 *.log*
