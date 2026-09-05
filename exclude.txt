@@ -11,6 +11,7 @@ user/.pki/
 user/.vscode/
 user/.vscode-shared/
 user/.claude/
+user/.claude.lock/
 user/.claude.json
 user/.vbox-vms/
 user/.vman-vms/
