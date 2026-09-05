@@ -12,33 +12,33 @@ user/.vscode/
 user/.vscode-shared/
 user/.claude/
 user/.claude.json
-.vbox-vms/
-.vman-vms/
-.virt-manager/
-.yubico-authenticator/
-.bash_history
-.local/bin/
-.local/lib/
-.local/state/
-+ .local/share/
-+ .local/share/flatpak/
-+ .local/share/flatpak/overrides/
-.local/share/flatpak/*
-.local/share/*
-.config/pavucontrol.ini
-.config/QtProject.conf
-.config/user-dirs.dirs
-.config/user-dirs.locale
-.config/tigervnc/
-.config/pulse/
-.config/BraveSoftware/
-.config/mozilla/
-.config/Proton/
-.config/Code/
-.var/app/com.brave.Browser/
-.var/app/org.mozilla.firefox/
-.var/app/com.protonvpn.www/
-.var/app/com.visualstudio.code/
+user/.vbox-vms/
+user/.vman-vms/
+user/.virt-manager/
+user/.yubico-authenticator/
+user/.bash_history
+user/.local/bin/
+user/.local/lib/
+user/.local/state/
++ user/.local/share/
++ user/.local/share/flatpak/
++ user/.local/share/flatpak/overrides/
+user/.local/share/flatpak/*
+user/.local/share/*
+user/.config/pavucontrol.ini
+user/.config/QtProject.conf
+user/.config/user-dirs.dirs
+user/.config/user-dirs.locale
+user/.config/tigervnc/
+user/.config/pulse/
+user/.config/BraveSoftware/
+user/.config/mozilla/
+user/.config/Proton/
+user/.config/Code/
+user/.var/app/com.brave.Browser/
+user/.var/app/org.mozilla.firefox/
+user/.var/app/com.protonvpn.www/
+user/.var/app/com.visualstudio.code/
 .cache/
 cache/
 Cache/
