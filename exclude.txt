@@ -8,6 +8,7 @@ user/Public/
 user/Videos/
 user/.dotnet/
 user/.pki/
+user/.docker/
 user/.vscode/
 user/.vscode-shared/
 user/.claude/
