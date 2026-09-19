@@ -1,6 +1,6 @@
 # 🐧 LinuxBackup
 
-A personal repository containing a backup script to back up all my files from any Linux distribution onto an external storage medium.
+A Bash CLI program to aid disaster recovery procedures. It automates backing up files to an external storage medium using the “rsync” utility. Features an incremental backup system for speedy and efficient backups as well as the ability to ignore certain files or directories.
 
 Feel free to use, take inspiration from, or fork/clone this script and adjust it to your own backup strategy.
 
